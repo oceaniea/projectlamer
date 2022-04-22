@@ -1,0 +1,25 @@
+body
+{
+    width: 100%; 
+    height: 100vh;
+    color: #fff;
+    background-image: linear-gradient(180deg,   #f8712e,#2078ac,#c5ab1a, #F56217);
+}
+
+/* If scrollbars are appearing you can disable them by just typing*/
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+.ubar {
+	position: fixed;
+	top: 0;
+	background: rgba(141, 122, 69,  0.041);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+	height: 7vh;
+    font-size: 150%;
+  }
+  

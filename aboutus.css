@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.bcimg{
+	  /* background-image: url('pictures/jack-anstey-HtUBBdNDxpQ-unsplash.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    padding: 0 20px;
+    color: rgb(255, 255, 255);
+
+
+}
+
+body {
+  background-image: url('pictures/pexels-elijah-o\'donnell-3473569.jpg'); /* fallback */
+  background-image: url('pictures/pexels-elijah-o\'donnell-3473569.jpg'), linear-gradient(#4745e9, #e2741a); /* W3C */
+}
+ 
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  /* .lbar {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.253);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    height: 7vh;
+    } */
+  
+  /* #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  } */
+
+.bgtext {
+	/* background-color: rgb(96, 172, 190); Fallback color
+	background-color: rgba(88, 88, 88, 0.1); Black w/opacity/see-through */
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(247, 206, 154),rgb(241, 205, 220),rgb(154, 183, 236) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	border:0px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+  text-align: center;
+   font-size: 400%;
+  }
+/* .pic1{
+  background: url(pictures/au10.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 27cm; 
+  right: 4cm;
+  left: 20cm;
+  height: 901px;
+}
+.pic2{
+  background: url(pictures/au12.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 10cm; 
+  right: 20cm;
+  left: 4cm;
+  height: 901px;
+}
+
+.pic3{
+  background: url(pictures/au10.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  bottom: 0cm; 
+  right: 4cm;
+  left: 20cm;
+  height: 901px;
+} */
+
+.mis{
+  background: -webkit-linear-gradient(#f37263,#ffb070 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+.fb1{
+  float: right;
+}
+
+
+
+.fb2{
+  float: left;
+}
+
+
+
+.lefta{
+     
+    
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 4cm;
+    background: -webkit-linear-gradient(rgb(255, 252, 247),rgb(255, 191, 166) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.leftb{
+     
+    
+     text-align: left;
+     font-family: 'Times New Roman', Times, serif;
+     border: 0;
+     margin-left: 4cm;
+     background: -webkit-linear-gradient(rgb(247, 206, 154),rgb(241, 205, 220),rgb(218, 236, 154) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+
+.righta{
+
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+border: 0;
+margin-right: 4cm;
+margin-left: 24cm; 
+background: -webkit-linear-gradient(rgb(247, 206, 154),rgb(241, 205, 220),rgb(221, 236, 154) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
+.rightb{
+
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+border: 0;
+margin-right: 4cm;
+margin-left: 24cm; 
+background: -webkit-linear-gradient(rgb(247, 206, 154),rgb(241, 205, 220),rgb(236, 235, 154) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.ubar {
+	position: fixed;
+	top: 0;
+	background: rgba(37, 47, 66, 0.342);
+	color: #f1f1f1;
+	width: 100%;
+	padding: 20px;
+	height: 7vh;
+  font-size: 150%;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  ::-webkit-scrollbar
+{
+    display: none;
+}
+/* .form{
+    border: 0ch;
+    size: 120%;
+    margin-right: 4cm;
+    margin-left: 24cm; 
+    margin-top: 10cm;
+}
+ .formtext{
+    border: 0ch;
+    margin-right: 4cm;
+    margin-left: 10; 
+   
+    font-size: 180%;
+
+ } */
